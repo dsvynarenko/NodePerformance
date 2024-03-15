@@ -1,0 +1,10 @@
+{
+  "name": "nodeperformance",
+  "version": "1.0.0",
+  "description": "A series of performance tests for the popular JS code constructions",
+  "scripts": {
+    "forEach": "node forEach"
+  },
+  "author": "Dmytro Svynarenko",
+  "license": "ISC"
+}
