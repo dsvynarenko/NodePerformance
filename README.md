@@ -16,3 +16,7 @@ To run performance tests use the following command:
 ```bash
 npm run forEach 
 ```
+Read more [here](https://dsvynarenko.hashnode.dev/nodejs-performance-1-forof-vs-foreach).
+
+
+
