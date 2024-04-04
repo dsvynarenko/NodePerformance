@@ -31,4 +31,4 @@ typechain-types
 
 # IDEA
 .idea
-.iml
+*.iml
