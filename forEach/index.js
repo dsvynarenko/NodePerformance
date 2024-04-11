@@ -1,13 +1,11 @@
+import { getRandomInRange } from '../random.js'
+
 // constants
 const WARM_UP_CYCLES = 100
 const WARMUP_ARRAY_LENGTH = 1_000_000
 const EXPERIMENTS_ARRAY_LENGTHS = [1_000, 10_000, 100_000, 1_000_000, 2_000_000, 5_000_000]
 const EXPERIMENTS_COUNT = 20
 
-// generate random values
-function getRandomInRange (min, max) {
-  return Math.random() * (max - min) + min
-}
 
 // generate test array
 function generateTestArray (count) {
@@ -43,7 +41,7 @@ function sumImperative (arr) {
 }
 
 // warm-up
-// console.log("Warming up...");
+console.log("Warming up...");
 for (let i = 0; i < WARM_UP_CYCLES; i++) {
   const testData = generateTestArray(WARMUP_ARRAY_LENGTH)
   const resultFunctional = sumFunctional(testData)
