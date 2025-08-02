@@ -1,11 +1,7 @@
 {
   "name": "nodeperformance",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A series of performance tests for the popular JS code constructions",
-  "scripts": {
-    "forEach": "node forEach",
-    "keyValueStore": "node --expose_gc keyValueStore"
-  },
   "type": "module",
   "author": "Dmytro Svynarenko",
   "license": "ISC"

@@ -15,16 +15,21 @@ node --print-bytecode --print-bytecode-filter=<method name> <file>
 ## `for ... of` vs `Array.forEach()`
 To run performance tests use the following command: 
 ```bash
-npm run forEach 
+node forEach 
 ```
 Read more [here](https://dsvynarenko.hashnode.dev/nodejs-performance-1-forof-vs-foreach).
 
 ## `Object` vs `Map` for key-value storages
 To run performance tests use the following command:
 ```bash
-npm run keyValueStore 
+node --expose-gc keyValueStore
 ```
 Read more [here](https://dsvynarenko.hashnode.dev/nodejs-performance-2-object-vs-map).
 
-
+## Spread operator, destructuring and Garbage Collection
+To run performance tests use the following command:
+```bash
+node --expose-gc spread
+```
+Read more [here](https://dsvynarenko.hashnode.dev/nodejs-performance-3-spread-operator-destructuring-and-garbage-collection).
 
